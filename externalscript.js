@@ -1,0 +1,6 @@
+
+function msg()
+{
+alert("hellooo");
+}
+

@@ -1,0 +1,24 @@
+<html>
+<head>
+<style>
+body
+{
+counter-reset:section;
+}
+
+h2::before
+{
+counter-increment:section;
+content:"section" counter(section)" :";
+}
+
+
+</style>
+</head>
+<body>
+<h1>java technologies</h1>
+<h2>HTML</h2>
+<h2>css 3</h2>
+<p><strong>Note:</strong>IE8 suopports these property only if a !DOCTYPE</p>
+</body>
+</html>
